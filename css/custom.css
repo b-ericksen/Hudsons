@@ -2,3 +2,7 @@
 .bg-dark {
   background-color: #B00608 !important;
 }
+ 
+h2 {
+	padding-bottom: 50px;
+}
