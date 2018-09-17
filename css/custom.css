@@ -5,9 +5,14 @@
  
 h2 {
 	padding-bottom: 50px;
+	text-align: center;
 }
 
 /*Fixes enlongated pictures in carousel*/
 .carousel-item > img {
 	min-width: inherit;
+}
+
+#myCarousel {
+	width: 100%;
 }
