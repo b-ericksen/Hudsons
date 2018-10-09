@@ -16,3 +16,7 @@ h2 {
 #myCarousel {
 	width: 100%;
 }
+
+.nav-item {
+	padding: inherit;
+}
