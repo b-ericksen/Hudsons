@@ -1,10 +1,10 @@
 /* CSS Document */
 .bg-dark {
-  background-color: #B00608 !important;
+  background-color: #ba2234 !important;
 }
  
-h2 {
-	padding-bottom: 50px;
+h1, h2 {
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -19,4 +19,34 @@ h2 {
 
 .nav-item {
 	padding: inherit;
+}
+
+.col-lg-4 {
+	border-color: #B00608;
+	border-width: thick;
+}
+
+#menu-nav {
+	padding-bottom: 50px;
+}
+
+.navbar-brand > img {
+	width: 100px;
+	
+}
+
+.navbar {
+	height: 90px;
+}
+
+#navbarCollapse {
+	font-size: 20px;
+}
+/*Centering nav in menu??*/
+#menu-nav {
+	width: 100%;
+}
+
+.hundsonslogo {
+	padding-top: 10px;
 }
