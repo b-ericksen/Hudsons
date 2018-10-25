@@ -165,21 +165,29 @@
 
         <hr class="featurette-divider">
 
+		<h1 id="feedback">Feedback</h1>
+		  
         <div class="row featurette">
-          <!-- Multiple inputs -->
+          <!-- Multiple inputs -->			
 	<div>
 		<select class="form-control" id="sel1">
         	<option>Enquiry</option>
         	<option>Feedback</option>
 		</select>
-	</div> 
+	</div>
 	<div class="input-group mb-3">
-    	<input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+<!--check how to fix length of this--><input type="text" class="form-control" placeholder="Email" id="demo" name="email">
 	</div>
+		<form action="/action_page.php">
+  			Select a time:
+  			<input type="time" name="usr_time">
+		</form>
 	<div class="form-group">
-  		<label for="comment">Comment:</label>
-  		<textarea class="form-control" rows="4" id="comment"></textarea>
+<!--fix-->	<label for="comment">Comment:</label>
+  			<textarea class="form-control" rows="4" id="comment"></textarea><br>
+		<input type="submit" value="Submit">
 	</div>
+			
         <hr class="featurette-divider">
 
         <div class="row featurette">

@@ -51,3 +51,19 @@ h1, h2 {
 .hundsonslogo {
 	padding-top: 10px;
 }
+
+#comment {
+	width: 350px;
+}
+
+#feedback {
+	text-align: left;
+}
+
+#sel1 {
+	margin-bottom: 10px;
+}
+
+label {
+	margin-top: 30px;
+}
