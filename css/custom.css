@@ -2,15 +2,20 @@
 .bg-dark {
   background-color: #ba2234 !important;
 }
- 
+
 h1, h2 {
 	padding-bottom: 20px;
 	text-align: center;
 }
 
 /*Fixes enlongated pictures in carousel*/
+.carousel-item {
+	height: 44rem !important;
+}
+
 .carousel-item > img {
 	min-width: inherit;
+	height: 44rem !important;
 }
 
 #myCarousel {
@@ -24,10 +29,6 @@ h1, h2 {
 .col-lg-4 {
 	border-color: #B00608;
 	border-width: thick;
-}
-
-#menu-nav {
-	padding-bottom: 50px;
 }
 
 .navbar-brand > img {
@@ -46,7 +47,9 @@ h1, h2 {
 #menu-nav {
 	width: 100%;
 	overflow: scroll;
+	padding-bottom: 50px;
 }
+
 
 .hundsonslogo {
 	padding-top: 10px;
@@ -66,4 +69,12 @@ h1, h2 {
 
 label {
 	margin-top: 30px;
+}
+
+h3 {
+	text-align: center;
+}
+
+#form-email {
+	max-width: 50%;
 }
