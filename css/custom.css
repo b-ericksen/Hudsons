@@ -77,3 +77,8 @@ label {
 #form-email {
 	max-width: 50%;
 }
+
+#openinghours {
+	text-align: left;
+	text-shadow: 3px 3px black;
+}
