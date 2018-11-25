@@ -37,12 +37,12 @@ h3 {
 
 /*Fixes enlongated pictures in carousel*/
 .carousel-item {
-	height: 44rem !important;
+	height: 40rem !important;
 }
 
 .carousel-item > img {
 	min-width: inherit;
-	height: 44rem !important;
+	height: 40rem !important;
 }
 
 #myCarousel {
@@ -58,8 +58,15 @@ h3 {
 	padding-top: 10px;
 }
 
+/*
+.form-check-label {
+	margin-top: 20 !important;
+}
+*/
+
 #comment {
 	width: 350px;
+	padding-right: 100%;
 }
 
 #feedback {
@@ -75,10 +82,18 @@ label {
 }
 
 #form-email {
-	max-width: 50%;
+	max-width: 65%;
 }
 
 #openinghours {
 	text-align: left;
 	text-shadow: 3px 3px black;
+}
+
+#select-time {
+	margin-left: 6px;
+}
+
+form {
+	margin-left: 10px;
 }
