@@ -58,6 +58,10 @@ h3 {
 	padding-top: 10px;
 }
 
+.form-check-input {
+	margin-bottom: 20px;
+}
+
 /*
 .form-check-label {
 	margin-top: 20 !important;
@@ -78,7 +82,7 @@ h3 {
 }
 
 label {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 #form-email {
@@ -92,6 +96,21 @@ label {
 
 #select-time {
 	margin-left: 6px;
+}
+
+#visitdate {
+	height: 30px;
+	width: 710px;
+}
+
+#specialsheading {
+	text-align: left;
+	text-shadow: 3px 3px black;
+}
+
+#communityinfo {
+	text-align: left;
+	text-shadow: 3px 3px black;
 }
 
 form {
